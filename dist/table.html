@@ -1,0 +1,216 @@
+
+<html> 
+  <head> 
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body class="table">
+    <div class="table1">
+      <div class="back"> <a href="index.html">Вернуться назад</a></div>
+    </div>
+    <div class="table-block">
+      <h1>Таблица достопримечательностей Бурятии</h1>
+      <details> 
+        <summary>График</summary>
+        <form>
+          <table class="graph">
+            <tr>
+              <th>Значение по оси ОХ</th>
+              <th>Результат</th>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="one" value="first"/>Название<br>
+                <input type="radio" name="one" value="second"/>Место расположения<br>
+                <input type="radio" name="one" value="third"/>Тип<br>
+              </td>
+              <td> 
+                <input type="checkbox" name="two"/>Максимальная оценка туристов<br>
+                <input type="checkbox" name="two"/>Минимальная оценка туристов<br>
+                <input type="checkbox" name="two"/>Количество достопримечательностей<br>
+              </td>
+            </tr>
+          </table>
+        </form>
+        <input type="button" value="Построить"/>
+      </details>
+      <details> 
+        <summary>Фильтр</summary>
+        <p>Название: 
+          <input type="text"/>
+        </p>
+        <p>Место расположения:
+          <input type="text"/>
+        </p>
+        <p>Тип:
+          <input type="text"/>
+        </p>
+        <p>Дальность от столицы: от
+          <input type="text"/> до 
+          <input type="text"/>
+        </p>
+        <p>Оценки туристов: от
+          <input type="text"/> до 
+          <input type="text"/>
+        </p>
+      </details>
+      <details> 
+        <summary>Сортировка</summary>
+        <p>Первый уровень: по убыванию? 
+          <input type="checkbox"/>
+          <select>
+            <option>Нет</option>
+            <option>Название</option>
+            <option>Место расположения</option>
+            <option>Тип</option>
+            <option>Дальность от столицы</option>
+            <option>Оценки туристов</option>
+          </select>
+        </p>
+        <p>Второй уровень: по убыванию? 
+          <input type="checkbox"/>
+          <select>
+            <option>Нет</option>
+            <option>Название</option>
+            <option>Место расположения</option>
+            <option>Тип</option>
+            <option>Дальность от столицы</option>
+            <option>Оценки туристов</option>
+          </select>
+        </p>
+        <p>Третий уровень: по убыванию? 
+          <input type="checkbox"/>
+          <select>
+            <option>Нет</option>
+            <option>Название</option>
+            <option>Место расположения</option>
+            <option>Тип</option>
+            <option>Дальность от столицы</option>
+            <option>Оценки туристов</option>
+          </select>
+        </p>
+      </details>
+      <table class="hard" border="1" cellspacing="0" cellpadding="5" bordercolor="white" color="white">
+        <tr>
+          <th>Название</th>
+          <th>Место расположения</th>
+          <th>Тип</th>
+          <th>Дальность от столицы</th>
+          <th>Оценки туристов </th>
+        </tr>
+        <tr>
+          <td>Иволгинский дацан "Хабын хурээ"</td>
+          <td>Иволга</td>
+          <td>Архитектура</td>
+          <td>50</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Памятник Ленину</td>
+          <td>Улан-Удэ</td>
+          <td>Памятник</td>
+          <td>0</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Буддийска ступа</td>
+          <td>Озеро Байкал</td>
+          <td>Архитектура</td>
+          <td>450</td>
+          <td>10    </td>
+        </tr>
+        <tr>
+          <td>Забайкальский нац.парк</td>
+          <td>Усть-Баргузин</td>
+          <td>Парк  </td>
+          <td>670</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Этнографический комплекс Тарбагатай</td>
+          <td>Тарбагатай</td>
+          <td>Музей</td>
+          <td>120</td>
+          <td>8 </td>
+        </tr>
+        <tr>
+          <td>Бургузинская долина</td>
+          <td>Баргузин</td>
+          <td>Парк</td>
+          <td>550</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Полуостров "Святой нос"</td>
+          <td>Озеро Байкал</td>
+          <td>Парк </td>
+          <td>450</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Пик Любви</td>
+          <td>Тункинский район</td>
+          <td>Гора</td>
+          <td>780</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Музей истории Бурятии</td>
+          <td>Улан-Удэ</td>
+          <td>Музей</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Озеро Байкал</td>
+          <td>Озеро Байкал</td>
+          <td>Озеро</td>
+          <td>300</td>
+          <td>10 </td>
+        </tr>
+        <tr>
+          <td>Долина вулканов</td>
+          <td>Тункинский район</td>
+          <td>Парк</td>
+          <td>800</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Этнографический музей народов Забайкалья</td>
+          <td>Улан-Удэ</td>
+          <td>Музей</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Гора Бархан-Уула</td>
+          <td>Баргузин</td>
+          <td>Гора</td>
+          <td>350</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Мать Бурятия</td>
+          <td>Улан-Удэ</td>
+          <td>Памятник</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Сувинский саксонский замок</td>
+          <td>Тарбагатй</td>
+          <td>Архитектура</td>
+          <td>150</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Ацагатский дацан</td>
+          <td>Ацагат</td>
+          <td>Архитектура</td>
+          <td>50</td>
+          <td>6</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+html 
+    head 
+        meta(charset="UTF-8")
+        link(rel="stylesheet", href="css/main.css")
+    body.table
+        .table1
+            .back 
+                a(href="index.html") Вернуться назад
+        .table-block
+            h1 Таблица достопримечательностей Бурятии
+            details 
+                summary График
+                form
+                    table.graph
+                        tr
+                            th Значение по оси ОХ
+                            th Результат
+                        tr
+                            td
+                                input(type="radio" name="one" value="first")
+                                | Название<br>
+                                input(type="radio" name="one" value="second")
+                                | Место расположения<br>
+                                input(type="radio" name="one" value="third")
+                                |Тип<br>
+                            td 
+                                input(type="checkbox" name="two")
+                                | Максимальная оценка туристов<br>
+                                input(type="checkbox" name="two")
+                                | Минимальная оценка туристов<br>
+                                input(type="checkbox" name="two")
+                                | Количество достопримечательностей<br>
+                input(type="button" value="Построить")
+        
+        
+        
+            details 
+                summary Фильтр
+                p Название: 
+                    input(type="text")
+                p Место расположения:
+                    input(type="text")
+                p Тип:
+                    input(type="text")
+                p Дальность от столицы: от
+                    input(type="text")
+                    |  до 
+                    input(type="text")
+                p Оценки туристов: от
+                    input(type="text")
+                    |  до 
+                    input(type="text")
+
+
+            details 
+                summary Сортировка
+                p Первый уровень: по убыванию? 
+                    input(type="checkbox")
+                    select
+                        option Нет
+                        option Название
+                        option Место расположения
+                        option Тип
+                        option Дальность от столицы
+                        option Оценки туристов
+                p Второй уровень: по убыванию? 
+                    input(type="checkbox")
+                    select
+                        option Нет
+                        option Название
+                        option Место расположения
+                        option Тип
+                        option Дальность от столицы
+                        option Оценки туристов
+                p Третий уровень: по убыванию? 
+                    input(type="checkbox")
+                    select
+                        option Нет
+                        option Название
+                        option Место расположения
+                        option Тип
+                        option Дальность от столицы
+                        option Оценки туристов
+            table.hard(border="1" cellspacing="0" cellpadding="5" bordercolor="white" color="white")
+                tr
+                    th Название
+                    th Место расположения
+                    th Тип
+                    th Дальность от столицы
+                    th Оценки туристов 
+                tr
+                    td Иволгинский дацан "Хабын хурээ"
+                    td Иволга
+                    td Архитектура
+                    td 50
+                    td 10
+                tr
+                    td Памятник Ленину
+                    td Улан-Удэ
+                    td Памятник
+                    td 0
+                    td 5
+                tr
+                    td Буддийска ступа
+                    td Озеро Байкал
+                    td Архитектура
+                    td 450
+                    td 10    
+                tr
+                    td Забайкальский нац.парк
+                    td Усть-Баргузин
+                    td Парк  
+                    td 670
+                    td 7
+                tr
+                    td Этнографический комплекс Тарбагатай
+                    td Тарбагатай
+                    td Музей
+                    td 120
+                    td 8 
+                tr
+                    td Бургузинская долина
+                    td Баргузин
+                    td Парк
+                    td 550
+                    td 7
+                tr
+                    td Полуостров "Святой нос"
+                    td Озеро Байкал
+                    td Парк 
+                    td 450
+                    td 10
+                tr
+                    td Пик Любви
+                    td Тункинский район
+                    td Гора
+                    td 780
+                    td 10
+                tr
+                    td Музей истории Бурятии
+                    td Улан-Удэ
+                    td Музей
+                    td 0
+                    td 8
+                tr
+                    td Озеро Байкал
+                    td Озеро Байкал
+                    td Озеро
+                    td 300
+                    td 10 
+                tr
+                    td Долина вулканов
+                    td Тункинский район
+                    td Парк
+                    td 800
+                    td 6
+                tr
+                    td Этнографический музей народов Забайкалья
+                    td Улан-Удэ
+                    td Музей
+                    td 0
+                    td 10
+                tr
+                    td Гора Бархан-Уула
+                    td Баргузин
+                    td Гора
+                    td 350
+                    td 8
+                tr
+                    td Мать Бурятия
+                    td Улан-Удэ
+                    td Памятник
+                    td 0
+                    td 10
+                tr
+                    td Сувинский саксонский замок
+                    td Тарбагатй
+                    td Архитектура
+                    td 150
+                    td 7
+                tr
+                    td Ацагатский дацан
+                    td Ацагат
+                    td Архитектура
+                    td 50
+                    td 6
+
+

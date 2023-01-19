@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+html
+	head
+		meta(charset="UTF-8")
+		link(rel="stylesheet", href="css/main.css")
+	body
+		include menu.pug
+		section.first
+			include main.pug
+		section.second(id = "HISTORY")
+			include history.pug
+		section.third(id = "ATTRACTION")
+			include attraction.pug
+		section.fourth(id = "DISHES") 
+			include dishes.pug
+		section.fifth(id = "NATURE")
+			include climate.pug
+		
+
+		//- Scripts
+		script(src="js/jquery-3.5.1.min.js")
+		script(src="js/main.js")
